@@ -1,0 +1,64 @@
+.container-fluid{
+    background-color:black;
+    color:white;
+}
+#ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    padding:10px;
+}
+#button{
+    background-color:yellow;
+    border-radius:8%;
+    border-color: yellow;
+ }
+
+
+ .dark-mode{
+     background-color:black;
+
+     color:white;
+ }
+
+ #nav{
+     display:none;
+     
+ }
+ #responcive-navbar{
+     display:none;
+ }
+
+
+ @media screen and (max-width:500px){
+     .container-fluid{
+         display:none;
+     }
+
+     #nav{
+        display:block;
+        float:right;
+        background-color:yellow;
+        border-radius:8%;
+        border-color: yellow;
+    }
+    #responcive-navbar{
+        display:block;
+    }
+    #ul{
+        display:flex;
+        flex-direction:column;
+    }
+   
+
+ }
+
+ #new{
+     background-color:black;
+     color:white;
+ }
